@@ -35,7 +35,7 @@ cp service-worker.js /path/to/SillyTavern/public/service-worker.js
 ### 第二步：通过 GitHub 链接安装扩展
 
 在 SillyTavern 的「扩展 → 第三方扩展 → 通过 URL 安装」，粘贴本仓库的
-GitHub 链接（例如 `https://github.com/<你的用户名>/st-sw-cache`），点击安装。
+GitHub 链接，点击安装。
 
 安装后扩展会自动：
 - 检测 `public/` 根目录是否存在 `service-worker.js`
